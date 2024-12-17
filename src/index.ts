@@ -18,4 +18,4 @@ export { SlideSegment } from "./structures/slideSegment";
 export { SlideType } from "./structures/slideType";
 
 /* Additional exports */
-export {TimingChange} from "./internal/syntacticAnalysis/timingChange"
+export { TimingChange } from "./internal/syntacticAnalysis/timingChange";

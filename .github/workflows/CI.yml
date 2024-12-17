@@ -38,6 +38,7 @@ jobs:
             - run: pnpm run build
             - run: pnpm dlx publint
 
-            - uses: simenandre/publish-with-pnpm@v2
-              with:
-                  npm-auth-token: ${{ github.token }}
+            - name: 🚢 Publish to GitHub package registry
+              run: pnpm publish --access public --no-git-checks --tag latest --tag ${{ github.sha }}
+              env:
+                NODE_AUTH_TOKEN: ${{ github.token }}

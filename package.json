@@ -24,7 +24,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/reflektone-games/simai.js.git"
+        "url": "git+https://github.com/m1n0rm1n3r/simai.js.git"
     },
     "keywords": [
         "serializer",

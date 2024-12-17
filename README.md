@@ -1,3 +1,9 @@
+> [!IMPORTANT]
+>
+> # Modified fork
+>
+> This is a fork with some fixes and extra types exported, primarily for my own use.
+
 ![simai.js Banner](./assets/banner.jpg)
 
 <!-- markdownlint-disable -->

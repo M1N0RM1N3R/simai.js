@@ -16,3 +16,6 @@ export { SlideMorph } from "./structures/slideMorph";
 export { SlidePath } from "./structures/slidePath";
 export { SlideSegment } from "./structures/slideSegment";
 export { SlideType } from "./structures/slideType";
+
+/* Additional exports */
+export {TimingChange} from "./internal/syntacticAnalysis/timingChange"
